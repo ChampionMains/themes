@@ -1,0 +1,80 @@
+/* IF INFERNAL THEME */
+html[lang*=if] {
+  span.pagename.redditname a {
+    background-image: url(%%DianaRender4%%);
+  }
+
+  .link .domain a {
+    color: #EC5E26;
+  }
+
+  .content .entry .buttons li.reported-stamp, 
+  body .content .stickied .entry .buttons li.reported-stamp,
+  body .content .over18 .entry .buttons li.reported-stamp {
+    background: #EC5E26 !important;
+  }
+
+  body {background-image: url(%%DianaBackground4%%)};
+
+  .link .tagline {
+    color: #EC5E26;
+  }
+
+  .entry .buttons li a, .entry .buttons li + li {color: #EC5E26;}
+
+  body:not(.submit-page) .tabmenu::after {
+    background: #EC5E26; /*TABMENU BACKGROUND SELECT*/
+  }
+
+  .link .title .domain {
+    color: #EC5E26;
+  }
+
+  .titlebox span.subscribers, .titlebox .users-online {
+    color: #EC5E26;
+  }
+
+  .side .md h2 {
+    color: #dbdbdb;
+    background: #EC5E26;
+  }
+
+  .fancy-toggle-button .add,
+  .RESshortcutside, 
+  .RESDashboardToggle {
+    background: rgba(112, 116, 110, 0.74);
+  }
+
+  /*DEFAULT COLOR*/
+
+		  .RESDashboardToggle.remove,.RESSubscriptionButton,.RESshortcutside.remove,.fancy-toggle-button .remove,.panestack-title a.title-button,.panestack-title a.title-button.gold,.side .titlebox .md h4 a,.sidecontentbox a.helplink,button,.commentarea .comment a.expand:hover
+
+		  {background:#EC5E26}
+   
+		  .commentarea span.score, .comment .flat-list li a:hover,.comment .flat-list li a[onclick*=reply],.commentNavSortType:hover,.commentarea .menuarea .toggle a:hover,.entry .buttons .may-blank,.error,.link .domain a:hover,.link .entry .buttons li a:hover,.loadFlat:hover,.submit-page .roundfield a,.thing .title,#progressIndicator a#NERStaticLink,.deepthread a,.deepthread::after,.linefield .title
+
+		  {color:#EC5E26}
+   
+
+		  .roundfield input[type=url]:focus,.roundfield input[type=text]:focus,.roundfield textarea:focus,.usertext-edit textarea:focus,#img-name:focus,.roundfield input[type="url"]:focus,.flairlist .flair-jump input[type="text"]:focus
+
+		  {border-color: #EC5E26}
+
+
+  /*ACTIVE - DARKER SHADE OF DEFAULT COLOR*/
+   
+		  .RESDashboardToggle.remove:active,.RESshortcutside.remove:active,.comments-page .RESSubscriptionButton:active,.fancy-toggle-button .remove:active,.panestack-title a.title-button.gold:active,.panestack-title a.title-button:active,.side .titlebox .md h4 a:active,.sidecontentbox a.helplink:active,button:active
+
+		  {background:#EC5E26}
+
+  /*SET TWO - SECONDARY COLOR*/
+
+		  /*DEFAULT*/
+   
+		  .thing .md table thead tr th,.morelink,.side .titlebox .md h3 a,.tabmenu,.wiki-page-content .md table thead tr th {background:#EC5E26}
+
+  div.side div.spacer:nth-of-type(6){
+    background:url(%%DianaMains4%%) top center no-repeat;
+  }
+}
+/* END IF INFERNAL THEME */
