@@ -1,6 +1,5 @@
 ---
-
 ---
-@import 'lg';
-@import 'dv';
-@import 'if';
+@import '{{ page.path | split:"/" | first }}/lg';
+@import '{{ page.path | split:"/" | first }}/dv';
+@import '{{ page.path | split:"/" | first }}/if';
