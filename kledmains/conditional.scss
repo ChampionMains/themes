@@ -1,0 +1,5 @@
+---
+---
+html[lang='kl-ed'] {
+  @import '{{ page.path | split:"/" | first }}/styles';
+}
