@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jax mains</title>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <style>
+    .lava {
+      top: -300px;
+      left: -125px;
+      width: 1500px;
+      height: 1500px;
+      position: absolute;
+      background: url('lava2.png');
+      background-size: 300%;
+      
+      -webkit-animation:spin 12s linear infinite;
+      -moz-animation:spin 12s linear infinite;
+      animation:spin 12s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    
+    img {
+      position: absolute;
+    }
+    
+    .container {
+      position: relative;
+      width: 1215px;
+      height: 717px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lava"></div>
+    <img src="Jax_trans3.png" alt="jax" />
+  </div>
+</body>
+</html>
