@@ -1,0 +1,5 @@
+---
+---
+html[lang*='te-st'] {
+  @import '{{ page.path | split:"/" | first }}/styles';
+}

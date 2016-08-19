@@ -208,6 +208,11 @@ a:hover {
     position: relative;
 }
 
+html[lang^="nm"] #header {
+    background: url("%%bg-nm%%") no-repeat right #000;
+    background-size: contain;
+}
+
 #header-img {
     display: inline-block;
     vertical-align: middle;
